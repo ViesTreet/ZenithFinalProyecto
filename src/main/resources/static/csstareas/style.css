@@ -1,0 +1,132 @@
+
+:root{
+    --body-color: #e4e9f7;
+    --sidebar-color: #FFF;
+    --primary-color: #695CFE;
+    --primary-color-light: #F6F5FF;
+    --toggle-color: #DDDD;
+    --text-color: #707070;
+	--footer-background-light: #695cfe;
+    --footer-background-dark: #000000;
+    --tran-02: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.4s ease;
+    --tran-05: all 0.5s ease;
+}
+
+.page-header {
+    margin-top: 20px;
+}
+
+.table {
+	margin-top: 20px;
+    width: 79%;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    border-collapse: collapse;
+    height: 100px;
+    border: 3px solid var(--text-color);
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    border: 3px solid var(--text-color);
+    background: var(--primary-color-light);
+    text-align: center;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    border: 3px solid var(--text-color);
+}
+
+.table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+    border: 3px solid var(--text-color);
+}
+
+.bg-success {
+    background-color: #28a745!important;
+}
+
+.bg-warning {
+    background-color: #ffc107!important;
+}
+
+.bg-danger {
+    background-color: #dc3545!important;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.form-select {
+	display:block; 
+	width:auto; 
+	padding:.375rem .75rem; 
+	font-size:.9em; 
+	line-height:1.5; 
+	color:#495057; 
+	background-color:#fff; 
+	background-clip:padding-box; 
+	border:1px solid #ced4da; 
+	border-radius:.25rem;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.home1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: var(--body-color);
+    transition: var(--tran-05);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.color{
+	color: var(--text-color);
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}

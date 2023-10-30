@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+.bloc{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	padding: 30px 0px 30px 0px;
+}
+
+.blocEscritura{
+	border-top: 20px;
+	display: block;
+	justify-content: center;
+	width: 70%;
+	height: 80%;
+	background-color: mintcream;
+	overflow: auto;
+	font-size: large;
+}
+
+.blocInput {
+  	display: flex;
+  	align-items: center;
+ 	padding: 3px;
+  	height: 10%;
+  	width: 70%;
+  	overflow: auto;
+  	background-color: #333;
+  	color: white;
+  	border-radius: 13px;
+}
+
+.blocInput form{
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+.selectorTipoBloc {
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	height: 100%;
+ 	width: 20%;
+}
+
+.selectorTipoBloc select{
+	background-color: transparent;
+	font-size: large;
+	color: white;
+	border: none;
+}
+
+.textoBloc {
+  	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 70%;
+    width: 70%;
+    margin-top: 22px;
+    border: none;
+}
+
+.textoB {
+ 	width: 100%; /* Ocupa todo el ancho disponible */
+  	height: 100%; /* Ocupa todo el alto disponible */
+	resize: none;
+  	display: flex;
+  	flex-wrap: wrap;
+  	align-items: center;
+  	justify-content: start;
+  	color: white;
+  	background-color: transparent;
+  	font-size: medium;
+  	border: none;
+}
+
+.botonBloc {
+	
+  	height: 100%;
+  	width: 10%;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+
+}
+
+.botonBloc input{
+	color: green;
+	background-color: transparent;
+	font-size: larger;
+	border: none;
+}
+
+.blocTitulo{
+	text-align: center;
+}
+
+.custom-checkbox::before {
+    content: '\2610'; /* Unicode character for an empty square */
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-right: 5px;
+}
+
+.custom-list::before {
+    content: '\2022'; /* Unicode character for a bullet point (•) */
+    display: inline-block;
+    width: 1em;
+    margin-right: 5px;
+}
+
+.checked.custom-checkbox::before {
+	background-color: black;
+}
